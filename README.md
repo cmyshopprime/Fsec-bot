@@ -1,2 +1,0 @@
-# Fsec-bot
-fsec bot
