@@ -12,28 +12,28 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "xi_xi_xi_xi_xi_xi")
-BOT_USERNAME = getenv("BOT_USERNAME", "CHOCOxAKG_bot")
-BOT_NAME = getenv("BOT_NAME", "CHOCOAUTOBOT •🪽")
-ASSUSERNAME = getenv("ASSUSERNAME", "CHOCO_ASSISTANT_BOLTE")
-EVALOP = list(map(int, getenv("EVALOP", "6621610889").split()))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "MOON_GOD_KHONSU")
+BOT_USERNAME = getenv("BOT_USERNAME", "FALCON_X_ROBOT")
+BOT_NAME = getenv("BOT_NAME", "Falcon •🪽")
+ASSUSERNAME = getenv("ASSUSERNAME", "II_FALCON_II)
+EVALOP = list(map(int, getenv("EVALOP", "5460343986").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOGGER_ID = int(getenv("LOGGER_ID", -1002155266073))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
-OWNER_ID = int(getenv("OWNER_ID",6621610889))
+OWNER_ID = int(getenv("OWNER_ID",5460343986))
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/codex-ML/CHOCO-MUSIC-API-BOT")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/MOON_GOD_KHONSU")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/source_code_network")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Y9O5ptuPEFs3NGE1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/QuantumEthics")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/InfoSecInsiders")
 
 # Server limits and configurations - These can be set based on your server configurations
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
